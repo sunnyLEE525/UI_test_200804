@@ -13,11 +13,12 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
+        android:padding="15dp"
         android:orientation="horizontal">
 
         <ImageView
-            android:layout_width="120dp"
-            android:layout_height="120dp"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
             android:src="@drawable/image_sun_test"
             android:scaleType="centerCrop"/>
 
@@ -26,7 +27,8 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="아이디"/>
+        android:text="아이디"
+        android:textSize="16sp"/>
 
     <EditText
         android:layout_width="match_parent"
@@ -37,7 +39,9 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="비밀번호"/>
+        android:text="비밀번호"
+        android:textSize="16sp"
+        android:layout_marginTop="5dp"/>
 
     <EditText
         android:layout_width="match_parent"
